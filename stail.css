@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(108, 81, 180);
+}
+
+header {
+    justify-content: space-between;
+    padding:20px ;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: #36bbce;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+ transition: 0.4s linear;
+}
+.button:hover{
+    color:forestgreen;
+    background-color: darkolivegreen;
+}
+nav {
+    border-top: 5px solid rgb(67, 33, 135);
+    border-bottom: 5px solid rgb(154, 51, 51);
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-link {
+    font-size: 24px;
+   transition: 0.4s linear;
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+color: goldenrod;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top:11px ;
+    margin-bottom:3px ;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: 0px;
+    color: white;
+    justify-content: center;
+}
+
+article {
+    background-color: rgb(251, 62, 62);
+    padding: 21px;
+    width: 400px;
+    margin: 23px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    transition: 0.4s linear;
+}
+.article-but:hover{
+    background-color: lightpink;
+    color: yellowgreen;
+}
+
+footer {
+    background-color: rgb(136, 179, 68);
+    padding: 9px;
+}
+
+footer a {
+    margin-right:19px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+header,nav,footer,.info {
+ display: flex;
+}
